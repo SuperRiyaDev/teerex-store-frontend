@@ -1,0 +1,21 @@
+.cart-wrap img {
+    height: 100px;  
+  }
+
+  .cart-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .del-btn Button{
+    background-color: grey;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+  }
+
+  .del-btn Button:hover{
+  background-color: black;
+  }

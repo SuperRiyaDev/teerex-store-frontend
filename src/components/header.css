@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(217, 217, 217);
+    padding: 10px;
+}
+
+.header-links{
+    display: flex;
+}
+
+.cart-icon-elem{
+    /* font-weight: bold; */
+    /* padding-bottom: 0px; */
+    display: flex;
+    justify-content: column;
+}
+
+
+.header-links ul{
+    list-style-type: none;
+}
+
+.header-links ul li a{
+    color: black !important;
+    text-decoration: none;
+}
+

@@ -1,0 +1,53 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home_panelList-wrap,
+.home_panel-wrap,
+.home_list-wrap {
+  overflow: auto;
+}
+
+.home_panelList-wrap {
+  display: flex;
+  flex: 1;
+}
+
+.home_panel-wrap {
+  /* background-color: blueviolet; */
+  flex-basis: 200px;
+}
+
+.side-panel-icon{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .home_panel-wrap {
+    /* background-color: blueviolet; */
+    flex-basis: 100px;
+  }
+}
+
+.home_list-wrap {
+  /* background-color: brown; */
+  flex: 1;
+  padding: 20px;
+}
+
+@media (max-width: 480px) {
+  .home_panel-wrap {
+    display: none; /* Hide the side panel for small screens */
+  }
+
+  .side-panel-icon {
+    display: block; /* Show the filter button instead */
+  }
+}
+
+.home_panel-wrap.show {
+  display: block;
+  /* Additional styles for the visible side panel, e.g., width, height, background, etc. */
+}

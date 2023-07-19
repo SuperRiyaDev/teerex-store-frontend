@@ -1,0 +1,40 @@
+.product-wrap img {
+  width: 100%;
+  border-radius: 15px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-wrap {
+  background-color: rgb(217, 217, 217);
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.product-wrap header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  align-items: center;
+}
+
+product-wrap footer,
+.footer-wrap {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+}
+
+.footer-wrap Button {
+  background-color: grey;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.footer-wrap Button:hover {
+  background-color: black;
+}
